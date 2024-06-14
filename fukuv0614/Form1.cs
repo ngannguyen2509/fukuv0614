@@ -2,8 +2,8 @@ namespace fukuv0614
 {
     public partial class Form1 : Form
     {
-        Random random = new Random();
-        int ans=0;
+        static Random random = new Random();
+        int ans=random.Next(0,51);
         int count = 0;
         int yosou;
 
